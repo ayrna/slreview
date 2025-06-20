@@ -1,5 +1,9 @@
 # Soft labelling for deep ordinal classification: an experimental review
 
+## Python Executable Setup
+
+To run experiments using HT-Condor with `run_condor.py`, you must first set the path to your Python executable in the `run_experiment.sh` script.
+
 ## Datasets Setup
 
 The datasets directory must be specified in the `data_dir` variable within either `run_experiment.py` or `run_condor.py` (if running with HT-Condor).
